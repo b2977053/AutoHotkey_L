@@ -218,6 +218,10 @@
     <None Include="source\resources\icon_tray_win9x_suspend.ico">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="Test\Test.ahk" />
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="source\resources\AutoHotkey.rc">
@@ -240,5 +244,8 @@
   </ItemGroup>
   <ItemGroup>
     <Natvis Include="debug.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="license.txt" />
   </ItemGroup>
 </Project>
